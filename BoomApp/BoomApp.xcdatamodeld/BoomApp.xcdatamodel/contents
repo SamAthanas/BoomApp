@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="16119" systemVersion="19D76" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="HistoryCell" representedClassName="HistoryCell" syncable="YES" codeGenerationType="class">
+        <attribute name="cellDate" optional="YES" attributeType="String"/>
+        <attribute name="cellTime" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserSettings" representedClassName="UserSettings" syncable="YES" codeGenerationType="class">
+        <attribute name="autoreload" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="email" optional="YES" attributeType="String"/>
+        <attribute name="name" optional="YES" attributeType="String"/>
+        <attribute name="phone" optional="YES" attributeType="String"/>
+    </entity>
+    <elements>
+        <element name="HistoryCell" positionX="-63" positionY="-18" width="128" height="73"/>
+        <element name="UserSettings" positionX="-45" positionY="18" width="128" height="103"/>
+    </elements>
+</model>
